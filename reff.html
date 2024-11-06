@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI Calculator</title>
+  <link rel="stylesheet" href="new.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculate your BMI</h1>
+    <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+    
+    <form class="bmi-form">
+      <div class="input-group">
+        <input type="text" placeholder="Height/cm" name="height" required>
+        <input type="text" placeholder="Weight/kg" name="weight" required>
+      </div>
+      <input type="text" placeholder="Age" name="age" required>
+      
+      <select name="sex" required>
+        <option value="" disabled selected>Sex</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+      
+      <select name="activity" required>
+        <option value="" disabled selected>Select an activity factor</option>
+        <option value="sedentary">Sedentary</option>
+        <option value="light">Lightly active</option>
+        <option value="moderate">Moderately active</option>
+        <option value="active">Active</option>
+        <option value="very-active">Very active</option>
+      </select>
+      
+      <button type="submit" class="calculate-btn">Calculate</button>
+    </form>
+  </div>
+</body>
+</html>
