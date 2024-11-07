@@ -127,7 +127,7 @@ height: 600px;
 
 }
 
-.right-section {}
+
 
 
 #img-banner {
@@ -210,13 +210,6 @@ td {
     padding: 8px;
     text-align: left;
 }
-
-th {}
-
-tr:nth-child(even) {}
-
-
-
 
 .container {
     background-color: rgb(34, 34, 34);
