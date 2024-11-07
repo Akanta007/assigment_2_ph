@@ -764,7 +764,7 @@ font-weight: 400;
 
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 648px) {
 
 
 
@@ -783,7 +783,7 @@ font-weight: 400;
     }
 
     body {
-        width: 90vw;
+        width: 90%;
         margin: 0 auto;
         /* overflow: hidden; */
     }
